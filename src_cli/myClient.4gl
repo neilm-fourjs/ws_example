@@ -6,8 +6,8 @@ MAIN
 	DEFINE d om.DomDocument
 	DEFINE r, n, cc om.DomNode
 
-	LET myService_myServicePortTypeSoap12Endpoint.Address.Uri = "http://localhost/g/ws/r/tc/myService"
-	DISPLAY "Attemping to call:",myService_myServicePortTypeSoap12Endpoint.Address.Uri
+	LET ws_example_ws_examplePortTypeSoap12Endpoint.Address.Uri = "http://localhost/g/ws/r/tc/myService"
+	DISPLAY "Attemping to call:",ws_example_ws_examplePortTypeSoap12Endpoint.Address.Uri
 
 	LET myFunction.astring = "Hello World Again"
 	CALL myFunction_g() RETURNING wsstatus

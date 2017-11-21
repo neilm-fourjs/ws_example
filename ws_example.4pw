@@ -63,6 +63,8 @@
   <Group label="client" language="Genero">
     <Application binaryName="ws_example_cli" id="813736744" label="ws_example_cli" targetDirectory="$(ProjectDir)/bin_cli">
       <File filePath="src_cli/myClient.4gl"/>
+      <File filePath="src_cli/ws_example.4gl"/>
+      <File excludeFromCompilation="true" filePath="src_cli/ws_example.inc"/>
     </Application>
   </Group>
   <Group label="Packages" language="Genero">
