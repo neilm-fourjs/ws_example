@@ -118,7 +118,7 @@ FUNCTION myfunc()
 
 	LET rec.fgldir = base.Application.getFglDir()
 	LET rec.informixdir = fgl_getEnv("INFORMIXDIR")
-	LET rec.logo = ui.Interface.filenameToURI("logo.png")
+--	LET rec.logo = ui.Interface.filenameToURI("logo.png")
 	LET rec.myint = 69
 
 	LET d = om.DomDocument.create("MyVer")
